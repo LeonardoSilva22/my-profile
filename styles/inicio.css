@@ -1,0 +1,40 @@
+#inicio {
+    background: linear-gradient(120deg, #ddd 49.9%, var(--second-color) 50%, var(--second-color));
+    height: 100vh;
+}
+
+#inicio .leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#inicio .textArea {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#inicio .textArea .name-color {
+    color: var(--sixth-color);
+}
+
+#inicio .linksArea {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#inicio .rightSide {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide img {
+    max-width: 400px;
+    border-radius: 50%;
+    animation: border-animate 5s infinite;
+}
