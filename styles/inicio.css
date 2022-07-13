@@ -1,6 +1,6 @@
 #inicio {
     background: linear-gradient(120deg, #ddd 49.9%, var(--second-color) 50%, var(--second-color));
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #inicio .leftSide {
