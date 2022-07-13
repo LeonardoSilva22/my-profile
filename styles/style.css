@@ -25,9 +25,9 @@ body {
     display: flex;
     justify-content: center;
     min-height: 35vh;
-    padding: 6%;
     border-top: 1px outset var(--sixth-color);
     border-bottom: 1px outset var(--sixth-color);
+    padding: 6%;
 }
 
 .container {
@@ -240,6 +240,9 @@ body {
     }
     #sobremim p {
         font-size: 1.2rem;
+    }
+    #habilidades .grid-elements {
+        grid-template-columns: repeat(2, auto);
     }
 }
 @media (max-width: 375px) {

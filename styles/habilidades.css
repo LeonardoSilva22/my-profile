@@ -1,0 +1,42 @@
+#habilidades {
+    min-height: 35vh;
+}
+#habilidades .container {
+    flex-direction: column;
+    justify-content: space-around;
+    color: #f5f5f5;
+}
+
+#habilidades .container h1 {
+    padding-bottom: 60px;
+}
+
+#habilidades .habilites-flex {
+    display: flex;
+    width: 100%;
+}
+
+#habilidades .leftSide {
+    flex: 2;
+}
+#habilidades .grid-elements {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    grid-template-columns: repeat(4, auto);
+}
+
+#habilidades .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades img {
+    width: 84px;
+}
+
+#habilidades .rightSide {
+    flex: 1;
+}
