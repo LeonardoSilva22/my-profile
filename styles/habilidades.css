@@ -27,14 +27,8 @@
     grid-template-columns: repeat(4, auto);
 }
 
-#habilidades .element {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#habilidades img {
-    width: 84px;
+#habilidades i {
+    color: var(--eighth-color);
 }
 
 #habilidades .rightSide {

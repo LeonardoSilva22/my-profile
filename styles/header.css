@@ -59,18 +59,19 @@ ol li {
     color: black;
 }
 
+.hamburguer-menu {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #2f363d;
+}
+
 header a:hover {
     color: var(--sixth-color);
 }
 
 header .active {
     color: var(--sixth-color);
-}
-
-header .fa-bars {
-    display: none;
-    cursor: pointer;
-    color: #2f363d;
 }
 
 header .fa-bars:hover {

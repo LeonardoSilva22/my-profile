@@ -173,7 +173,8 @@ body {
     .container {
         justify-content: center;
     }
-    header .fa-bars {
+    header .fa-bars,
+    .hamburguer-menu {
         display: block;
     }
 
