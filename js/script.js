@@ -5,9 +5,9 @@ function toggleMenu() {
     menu.classList.toggle('menu-active')
 
     if (menu.classList.contains('menu-active')) {
-        menubtn.innerHTML = '<i class="fa-solid fa-2x fa-x x-menu"></i>'
+        menubtn.innerHTML = '<i class="fa-solid  fa-x x-menu"></i>'
     } else {
-        menubtn.innerHTML = '<i class="fa-solid fa-2x fa-bars hamburguer-menu"></i>'
+        menubtn.innerHTML = '<i class="fa-solid  fa-bars hamburguer-menu"></i>'
     }
 }
 

@@ -176,6 +176,13 @@ body {
     header {
         border: none;
     }
+    .hamburguer-menu,
+    .x-menu {
+        font-size: 1.4rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
     .hamburguer {
         display: block;
         justify-content: center;
@@ -218,8 +225,8 @@ body {
     #sobremim p {
         font-size: 1.3rem;
     }
-    #projetos .project-content {
-        width: 100%;
+    #projetos .projects-container {
+        grid-template-columns: 1fr;
     }
     #projetos img {
         width: 250px;
@@ -241,9 +248,9 @@ body {
     header {
         display: block;
     }
-    .header-container,
-    .container {
-        padding: 0 30px;
+    .hamburguer-menu,
+    .x-menu {
+        font-size: 1.3rem;
     }
     .container {
         max-width: 412px;
@@ -272,9 +279,12 @@ body {
         display: block;
         font-size: 1rem;
     }
-    .header-container,
-    .container {
-        padding: 0 30px;
+    .logo {
+        font-size: 1rem;
+    }
+    .hamburguer-menu,
+    .x-menu {
+        font-size: 1.2rem;
     }
     .container {
         max-width: 412px;
